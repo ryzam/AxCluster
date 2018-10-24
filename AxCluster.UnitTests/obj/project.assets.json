@@ -5714,11 +5714,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\AxCluster\\src\\AxCluster.UnitTests\\AxCluster.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\irwanazam\\source\\repos\\AxCluster\\AxCluster.UnitTests\\AxCluster.UnitTests.csproj",
       "projectName": "AxCluster.UnitTests",
-      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\AxCluster\\src\\AxCluster.UnitTests\\AxCluster.UnitTests.csproj",
+      "projectPath": "C:\\Users\\irwanazam\\source\\repos\\AxCluster\\AxCluster.UnitTests\\AxCluster.UnitTests.csproj",
       "packagesPath": "C:\\Users\\irwanazam\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\irwanazam\\source\\repos\\AxCluster\\src\\AxCluster.UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\irwanazam\\source\\repos\\AxCluster\\AxCluster.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

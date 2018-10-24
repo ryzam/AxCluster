@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxCluster", "AxCluster\AxCluster.csproj", "{3CDAB4F4-9C31-4B08-86D4-39B2A6E42FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AxCluster", "AxCluster\AxCluster.csproj", "{3CDAB4F4-9C31-4B08-86D4-39B2A6E42FEA}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EE6E830B-EF70-49B7-A752-F28E022A06CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AxCluster.UnitTests", "..\AxCluster.UnitTests\AxCluster.UnitTests.csproj", "{7F05001E-7490-4EA0-9626-8EAD7386F554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AxCluster.UnitTests", "AxCluster.UnitTests\AxCluster.UnitTests.csproj", "{253705FB-DBA8-485E-9D9C-AD1F64FC7D5C}"
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "..\docker-compose.dcproj", "{EE6E830B-EF70-49B7-A752-F28E022A06CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{3CDAB4F4-9C31-4B08-86D4-39B2A6E42FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDAB4F4-9C31-4B08-86D4-39B2A6E42FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDAB4F4-9C31-4B08-86D4-39B2A6E42FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F05001E-7490-4EA0-9626-8EAD7386F554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F05001E-7490-4EA0-9626-8EAD7386F554}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F05001E-7490-4EA0-9626-8EAD7386F554}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F05001E-7490-4EA0-9626-8EAD7386F554}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EE6E830B-EF70-49B7-A752-F28E022A06CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EE6E830B-EF70-49B7-A752-F28E022A06CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE6E830B-EF70-49B7-A752-F28E022A06CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE6E830B-EF70-49B7-A752-F28E022A06CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{253705FB-DBA8-485E-9D9C-AD1F64FC7D5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{253705FB-DBA8-485E-9D9C-AD1F64FC7D5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{253705FB-DBA8-485E-9D9C-AD1F64FC7D5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{253705FB-DBA8-485E-9D9C-AD1F64FC7D5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
