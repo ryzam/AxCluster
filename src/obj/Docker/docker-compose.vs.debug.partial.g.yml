@@ -10,7 +10,7 @@ services:
       - NUGET_PACKAGES=C:\.nuget\packages
       #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_axcluster$
     volumes:
-      - c:\users\irwanazam\source\repos\AxCluster\AxCluster:C:\app
+      - C:\Users\irwanazam\source\repos\AxCluster\src\AxCluster:C:\app
       - C:\Users\irwanazam\onecoremsvsmon:C:\remote_debugger:ro
 #$nuget_volume_mapping_axcluster$
     entrypoint: C:\\remote_debugger\\x64\\msvsmon.exe /noauth /anyuser /silent /nostatus /noclrwarn /nosecuritywarn /nofirewallwarn /nowowwarn /timeout:2147483646

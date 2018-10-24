@@ -5,7 +5,7 @@ networks:
 services:
   axcluster:
     build:
-      context: c:\users\irwanazam\source\repos\AxCluster
+      context: C:\Users\irwanazam\source\repos\AxCluster\src
       dockerfile: AxCluster\Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
